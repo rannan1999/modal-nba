@@ -316,7 +316,8 @@ jobs:
 
       - name: 创建/更新 Modal Secret
         run: |
-            modal secret create modal-secrets \
+          modal secret create modal-secrets \
+            UUID="${RESOLVED_UUID:-be16536e-5c3c-44bc-8cb7-b7d0ddc3d951}" \
             UUID="${RESOLVED_UUID:-be16536e-5c3c-44bc-8cb7-b7d0ddc3d951}" \
             MODAL_USER_NAME="${{ secrets.MODAL_USER_NAME }}" \
             MODAL_APP_NAME="${{ env.MODAL_APP_NAME }}" \
