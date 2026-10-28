@@ -1,1 +1,1 @@
-最后一次部署: 2026-10-27 09:39:56 UTC | 区域: ap-south | URL: https://rannan1999--nba-web-server.modal.run
+最后一次部署: 2026-10-28 10:23:58 UTC | 区域: ap-south | URL: https://rannan1999--nba-web-server.modal.run
